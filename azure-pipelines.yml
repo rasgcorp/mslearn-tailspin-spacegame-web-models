@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: '84d53b83-a84f-4cef-af2b-72280a0b3143/d6f8b4f0-28a0-4d46-bf91-c3792ecf1871'
+    publishVstsFeed: 'Demo Manage Build Dependencies Azure Artifacts/Tailspin.SpaceGame.Web.Models'
     allowPackageConflicts: true
   condition: succeeded()
